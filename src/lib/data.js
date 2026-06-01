@@ -21,7 +21,7 @@ export const services = [
     slug: 'podlahovy-polystyren-eps',
     title: 'Podlahový polystyren (EPS)',
     short: 'Základní tepelná izolace podlah, která pomáhá udržet teplo a vytváří pevný podklad pro betonovou vrstvu.',
-    image: '/images/eps-info.webp',
+    image: '/images/relizace-room-1',
     icon: 'cube',
     bullets: ['Tepelná izolace a úspora energií', 'Pevnost a stabilita podkladu', 'Nízká nasákavost a dlouhá životnost', 'Ideální pro novostavby i rekonstrukce']
   },
@@ -29,7 +29,7 @@ export const services = [
     slug: 'mineralni-vata',
     title: 'Minerální vata',
     short: 'Řešení pro lepší akustiku, kročejový útlum a vyšší komfort bydlení v bytech i rodinných domech.',
-    image: '/images/mineralni-info.webp',
+    image: '/images/realizace-room-2',
     icon: 'waves',
     bullets: ['Kročejová izolace a tlumení hluku', 'Tepelná izolace pro úsporu tepla', 'Akustický komfort pro klidnější bydlení', 'Nehořlavý a odolný izolační materiál']
   },
@@ -37,7 +37,7 @@ export const services = [
     slug: 'dilatacni-paska',
     title: 'Dilatační páska',
     short: 'Okrajový prvek kolem stěn, který chrání podlahu, umožňuje dilataci a snižuje riziko vzniku trhlin.',
-    image: '/images/dilatacni-info.webp',
+    image: '/images/realizace-room-4',
     icon: 'tape',
     bullets: ['Odděluje podlahu od svislých konstrukcí', 'Umožňuje podlaze přirozeně pracovat', 'Zabraňuje praskání a vzniku trhlin', 'Chrání konstrukce a prodlužuje životnost']
   }
@@ -60,10 +60,10 @@ export const process = [
 ];
 
 export const projects = [
-  { title: 'Podlahová izolace novostavby', location: 'Praha', type: 'EPS', image: '/images/realizace-room-1.webp', text: 'Pokládka tepelné izolace v obytné části domu.' },
-  { title: 'Příprava podkladu pro betonáž', location: 'Středočeský kraj', type: 'EPS', image: '/images/realizace-room-2.webp', text: 'Rovinná skladba podlahy a kontrola návazností.' },
-  { title: 'Izolace bytu před potěrem', location: 'Praha', type: 'Minerální vata', image: '/images/realizace-room-3.webp', text: 'Důraz na akustiku a čisté provedení detailů.' },
-  { title: 'Rekonstrukce podlahové skladby', location: 'Beroun', type: 'Dilatace', image: '/images/realizace-room-4.webp', text: 'Doplnění okrajových pásek a příprava pro potěr.' }
+  { title: 'Podlahová izolace novostavby', location: 'Praha', type: 'EPS', image: '/images/realizace-room-1.jpeg', text: 'Pokládka tepelné izolace v obytné části domu.' },
+  { title: 'Příprava podkladu pro betonáž', location: 'Středočeský kraj', type: 'EPS', image: '/images/realizace-room-2.jpeg', text: 'Rovinná skladba podlahy a kontrola návazností.' },
+  { title: 'Izolace bytu před potěrem', location: 'Praha', type: 'Minerální vata', image: '/images/realizace-room-3.jpeg', text: 'Důraz na akustiku a čisté provedení detailů.' },
+  { title: 'Rekonstrukce podlahové skladby', location: 'Beroun', type: 'Dilatace', image: '/images/realizace-room-4.jpeg', text: 'Doplnění okrajových pásek a příprava pro potěr.' }
 ];
 
 export const faqs = [
